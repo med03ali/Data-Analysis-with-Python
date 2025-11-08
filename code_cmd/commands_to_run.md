@@ -8,10 +8,7 @@ cd mon_projet_dash
 python -m venv venv
 
 # 3. Activez l'environnement virtuel
-# Pour Windows (CMD/PowerShell)
 .\venv\Scripts\activate
-# Pour macOS/Linux
-# source venv/bin/activate
 
 # 4. Installez les dépendances nécessaires
 pip install dash pandas
@@ -20,5 +17,6 @@ pip install dash pandas
 
 # 6. Lancez l'application
 python app.py
+
 
 
